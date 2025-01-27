@@ -45,19 +45,19 @@ CREATE TABLE retail_sales (
 - **Category Count**: Identify all unique product categories in the dataset.
 - **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
-**1. Record Count: Determine the total number of records in the dataset.**:
+**Record Count: Determine the total number of records in the dataset.**:
 ```sql
 SELECT COUNT(*) AS "COUNT" FROM RETAIL_SALES_ANALYSIS
 ```
-**2. Customer Count: Find out how many unique customers are in the dataset.**:
+**Customer Count: Find out how many unique customers are in the dataset.**:
 ```sql
 SELECT COUNT(DISTINCT(CUSTOMER_ID)) AS "TOTAL CUSTOMERS" FROM RETAIL_SALES_ANALYSIS
 ```
-**3.Category Count: Identify all unique product categories in the dataset.**:
+**Category Count: Identify all unique product categories in the dataset.**:
 ```sql
 SELECT DISTINCT(CATEGORY) AS "NO OF CATEGORIES" FROM RETAIL_SALES_ANALYSIS 
 ```
-**4.Null Value Check: Check for any null values in the dataset and delete records with missing data.**:
+**Null Value Check: Check for any null values in the dataset and delete records with missing data.**:
 ```sql
 SELECT * FROM RETAIL_SALES_ANALYSIS
 WHERE TRANSACTIONS_ID IS NULL OR SALE_DATE IS NULL OR SALE_TIME IS NULL OR
