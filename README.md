@@ -1,4 +1,5 @@
 # RETAIL SALES ANALYSIS USING SQL PROJECT
+![RETAIL SALES LOGO](https://github.com/BERLINSAMUELRAJ/RETAIL-SALES-ANALYSIS-SQL-/blob/main/RETAIL-17-5-2024.jpg)
 ## Project Overview
 **Project Title:** Retail Sales Analysis  
 **Database:** `RETAIL_SALES_DB`  
