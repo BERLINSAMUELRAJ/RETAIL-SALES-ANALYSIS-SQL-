@@ -22,7 +22,7 @@ A table named `retail_sales` is created to store the sales data. The table struc
 
 ### SQL Script to Create Database and Table
 ```sql
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE RETAIL_SALES_DB;
 
 CREATE TABLE retail_sales (
     transactions_id INT PRIMARY KEY,
