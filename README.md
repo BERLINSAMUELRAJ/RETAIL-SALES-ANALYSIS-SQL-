@@ -8,7 +8,7 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 ## Dataset
 
-The data for this project is sourced from the Kaggle dataset:
+The Dataset used in this project can be viewed and downloaded here:
 
 - **Dataset Link:** [RETAIL SALES ANALYSIS Dataset](https://github.com/BERLINSAMUELRAJ/RETAIL-SALES-ANALYSIS-SQL-/blob/main/SQL%20-%20Retail%20Sales%20Analysis_utf%20.csv)
 
